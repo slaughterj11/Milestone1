@@ -1,0 +1,297 @@
+
+
+body{
+background-color: #53507E;
+
+}
+
+h1.heading{
+height: 37 px;
+width: 1100px;
+margin-top: 30 px;
+text-align: center;
+margin-bottom:115 px;
+}
+
+
+img.logo {
+height: 37px;
+}
+
+nav.navTop{
+float: right;
+font-size: 12px;
+margin-left: 0 px;
+margin-top: 12px;
+}
+a.about{
+font-family:  "Raleway", sans-seri;
+font-weight:800;
+color:  #B1AEDE;
+
+}
+
+a.about:hover{
+color: white;
+}
+
+a.about:active{
+color: white;
+border-bottom: 2px;
+border-color: #FF8ED8;
+}
+
+div.homeLeft{
+width: 550px;
+float: left;
+}
+
+div.homeRight{
+width: 550px;
+float: left;
+}
+
+h1.banner{
+font-family:  'Raleway', sans-seri;
+font-weight:800;
+font-size: 52px;
+color: white;
+line-height: 56px;
+margin-bottom: 35px;
+}
+
+p.mainText{
+font-family: 'Roboto Slab', serif;
+font-weight: 400;
+font-size: 20px;
+color: #B1AEDE;
+margin-bottom: 120px;
+}
+
+button.homeButton{
+height: 80px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right:45px;
+padding-left: 45px;
+border-radius: 40px;
+box-shadow:  0 0 30px rgba(255, 142, 216, 0.75);
+background-color:  #FF8ED8;
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 24px;
+color: white;
+}
+button:hover{
+box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
+color: #403D65;
+}
+
+div.homeFooter{
+margin-top: 600px;
+height: 105px;
+background-color: #403D65;
+width: 100%;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 0px;
+padding-left: 0px;
+}
+a.navBottom{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 12px;
+color: #B1AEDE;
+margin-right: 35px;
+margin-top: 10px;
+}
+
+a.navBottom:hoover{
+color: white;
+}
+
+img.social{
+width: 34px;
+margin-left: 10px;
+float:right;
+}
+
+img.social:hoover{
+opacity: 0.75;
+}
+
+p.ending{
+height: 35px;
+margin-top:  15px;
+font-family: 'Roboto Slab', serif;
+font-weight: 600;
+font-size: 12px;
+color: #B1AEDE;
+text-align: center;
+}
+
+/* about specific*/
+
+div.aboutUs{
+width: 750px;
+padding: 80 px;
+margin-top: 0px;
+margin-left: 90px;
+margin-right: 90px;
+margin-bottom: 90px;
+background-color: white;
+box-shadow: 0 0 100px rgba(255,255,255,.75);
+padding: 80px 80px 80px 180px;
+}
+
+p.titleUs{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 24px;
+color: #FF8ED8;
+margin-bottom: 35 px;
+}
+
+p.aboutContent{
+font-family: 'Roboto Slab', serif;
+font-weight: 400;
+font-size: 18px;
+color: #5C5C5C;
+max-width: 480 px;
+}
+
+div.jebediah{
+width: 750px;
+padding: 80 px;
+margin-top: 0px;
+margin-left: 90px;
+margin-right: 90px;
+margin-bottom: 90px;
+background-color: white;
+box-shadow: 0 0 100px rgba(255,255,255,.75);
+padding: 80px 80px 80px 180px;
+position: relative;
+}
+
+img.man{
+width:208px;
+position:absolute;
+top: -40px;
+left: -70px;
+border: 20px solid white;
+border-radius: 50%;
+}
+
+p.jeb{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+p.jebInfo{
+font-family: 'Roboto Slab', serif;
+font-weight: 400;
+font-size: 18px;
+color: #5C5C5C;
+max-width: 480 px;
+}
+
+div.jezebelle{
+width: 750px;
+padding: 80 px;
+margin-top: 0px;
+margin-left: 90px;
+margin-right: 90px;
+margin-bottom: 90px;
+background-color: white;
+box-shadow: 0 0 100px rgba(255,255,255,.75);
+padding: 80px 180px 80px 80px;
+position: relative;
+}
+
+img.wife{
+width:208px;
+position:absolute;
+top: -40px;
+right: -70px;
+border: 20px solid white;
+border-radius: 50%;
+}
+
+p.jez{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 20px;
+margin-bottom: 10px;
+text-align: right;
+}
+
+p.jezInfo{
+font-family: 'Roboto Slab', serif;
+font-weight: 400;
+font-size: 18px;
+color: #5C5C5C;
+max-width: 480 px;
+text-align: right;
+}
+
+/*form specific*/
+
+div.form{
+width: 500px;
+margin: 0 auto;
+}
+
+input{
+outline:none;
+border-bottom: 2px solid white;
+height: 35px;
+background: none;
+font-family: 'Roboto Slab', serif;
+font-weight: 700;
+font-size: 18px;
+color:white;
+padding-left: 0;
+
+
+}
+
+
+button.submit{
+height: 60px;
+padding: 20px 45px;
+border-radius: 30px;
+box-shadow:  0 0 30px rgba(255, 142, 216, 0.75);
+background-color:  #FF8ED8;
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+color: white;
+}
+
+button.submit:hover{
+box-shadow: 0 0 30px rgba(64,61,101, 0.75);
+color: #403D65
+}
+
+button {
+
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 6s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {background-color: #53507E;}
+    to {background-color: #FF8ED8;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: #53507E;}
+    to {background-color: #FF8ED8;}
+}
+
